@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const procuductSchema = new mongoose.Schema({
     title:{
             type: String,
-            required: [true, "Загаловок не щаполнен"],
+            required: [true, "Загаловок не заполнен"],
             trim: true
     },
     description:{
